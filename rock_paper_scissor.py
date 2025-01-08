@@ -38,7 +38,8 @@ elif my_choice == 1:
 elif my_choice == 2:
     print("You chose scissors.")
 
-print(game_images[my_choice])
+if 0 <= my_choice <= 2:
+    print(game_images[my_choice])
 
 stuff = ["rock", "paper", "scissors"]
 stuff_index = random.randint(0, 2)
@@ -48,7 +49,7 @@ print(game_images[stuff_index])
 
 if my_choice == stuff_index:
     print("It's a tie!")
-elif my_choice >= stuff_index:
+elif my_choice >= 3 or my_choice < 0:
     print("You chose an invalid number!")
 elif my_choice == 0 and stuff_index == 1:
     print("You lose!")
@@ -62,4 +63,4 @@ elif my_choice == 2 and stuff_index == 0:
     print("You lose!")
 elif my_choice == 2 and stuff_index == 1:
     print("You win!")
-
+    
