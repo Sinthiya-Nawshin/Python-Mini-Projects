@@ -41,26 +41,26 @@ elif my_choice == 2:
 if 0 <= my_choice <= 2:
     print(game_images[my_choice])
 
-stuff = ["rock", "paper", "scissors"]
-stuff_index = random.randint(0, 2)
+choices = ["rock", "paper", "scissors"]
+computer_choice = random.randint(0, 2)
 
-print(f"Computer chose {stuff[stuff_index]}.")
-print(game_images[stuff_index])
+print(f"Computer chose {choices[computer_choice]}.")
+print(game_images[computer_choice])
 
-if my_choice == stuff_index:
+if my_choice == computer_choice:
     print("It's a tie!")
 elif my_choice >= 3 or my_choice < 0:
     print("You chose an invalid number!")
-elif my_choice == 0 and stuff_index == 1:
+elif my_choice == 0 and computer_choice == 1:
     print("You lose!")
-elif my_choice == 0 and stuff_index == 2:
+elif my_choice == 0 and computer_choice == 2:
     print("You win!")
-elif my_choice == 1 and stuff_index == 0:
+elif my_choice == 1 and computer_choice == 0:
     print("You lose!")
-elif my_choice == 1 and stuff_index == 2:
+elif my_choice == 1 and computer_choice == 2:
     print("You win!")
-elif my_choice == 2 and stuff_index == 0:
+elif my_choice == 2 and computer_choice == 0:
     print("You lose!")
-elif my_choice == 2 and stuff_index == 1:
+elif my_choice == 2 and computer_choice == 1:
     print("You win!")
     
