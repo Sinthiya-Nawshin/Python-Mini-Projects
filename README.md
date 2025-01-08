@@ -1,7 +1,7 @@
 # Python-Mini-Projects
 Being a CS graduate, programming was always soooo boring to me. Mostly because I thought I didn't have the brains and enough dedication for it. 
 After years of contemplation, I finally found some motivation to try learning the easiest and most popular one - Python. 
-Now, I don't want to be the best of them, I just want to be one of them (nerd).
+Now, I don't wanna be the best of the best but I wanna be one of good ones.
 And what even is the best quality of a programmer? Patience? Eh, I can be patient!
 So far my little brain is doing it's job very well. I hope I can keep up with this learning process for as long as I can.
 'Cause for the very first time, I'm enjoying it. 
