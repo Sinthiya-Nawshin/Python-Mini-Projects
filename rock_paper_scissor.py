@@ -1,3 +1,5 @@
+# Playing rock, paper, scissors with random choice generator
+
 import random
 
 rock = '''
