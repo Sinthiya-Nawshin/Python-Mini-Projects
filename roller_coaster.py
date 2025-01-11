@@ -1,6 +1,10 @@
+# Generating the bill for a roller coaster ride by checking the allowed height and age and then adding an option to take a photo.
+
 print("Welcome to the roller coaster")
 height = int(input("Please enter your height in cm: "))
+
 bill = 0
+
 if height >= 120:
     print("You can ride the coaster!")
     age = int(input("Please enter your age in years: "))
