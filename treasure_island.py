@@ -1,3 +1,5 @@
+# Finding the treasure in an island by making the right choices.
+
 img = '''
 *******************************************************************************
           |                   |                  |                     |
