@@ -1,4 +1,5 @@
 import random
+from words_module import word_list
 
 stages = [r'''
   +---+
@@ -57,8 +58,6 @@ r'''
       |
 =========''']
 
-word_list = ["aardvark", "baboon", "camel"]
-
 lives = 6
 
 chosen_word = random.choice(word_list)
@@ -75,7 +74,11 @@ game_over = False
 correct_guess = []
 
 while game_over is False:
+    print(f"***** {lives}/6 Lives are Left ******")
     guess_letter = input("Guess a letter: ").lower()
+
+    if guess_letter in chosen_word:
+        print(f"You guessed the letter {guess_letter}!")
 
     display = ""
 
@@ -91,6 +94,7 @@ while game_over is False:
 
     if guess_letter not in chosen_word:
         lives -= 1
+        print(f"You guessed {guess_letter} which is not in the word. You lose a life!")
         print(stages[lives])
         if lives == 0:
             game_over = True
