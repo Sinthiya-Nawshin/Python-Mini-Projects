@@ -1,5 +1,5 @@
 import random
-from words_module import word_list
+from words_module import word_list      # from words_module already added to the folder
 
 stages = [r'''
   +---+
