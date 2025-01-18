@@ -1,4 +1,4 @@
-# Calculating TRUE and LOVE strings in 2 parameters in a function and then adding them together.
+# Calculating TRUE and LOVE strings in 2 parameters in a function and then adding them together. (ugh, cringe)
 
 def calculate_love_score(name1, name2):
     combined_names = (name1 + name2).lower()
