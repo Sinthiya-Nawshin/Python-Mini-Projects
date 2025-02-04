@@ -1,4 +1,4 @@
-coffee_machine = r""" 
+coffee_logo = r""" 
 $$$$$$\             $$$$$$\   $$$$$$\                           $$\      $$\                     $$\       $$\                     
 $$  __$$\           $$  __$$\ $$  __$$\                          $$$\    $$$ |                    $$ |      \__|                    
 $$ /  \__| $$$$$$\  $$ /  \__|$$ /  \__|$$$$$$\   $$$$$$\        $$$$\  $$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\  $$\ $$$$$$$\   $$$$$$\  
@@ -43,7 +43,7 @@ resources = {
 }
 
 
-print(coffee_machine)
+print(coffee_logo)
 
 
 def check_resources(order_ingredients):
