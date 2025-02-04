@@ -45,7 +45,6 @@ resources = {
 
 print(coffee_logo)
 
-
 def check_resources(order_ingredients):
     """Returns True if order can be made, False if ingredients insufficient."""
     for item in order_ingredients:
@@ -105,3 +104,4 @@ while system_continue:
             payment = process_coins()
             if transaction_status(payment, drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
+
